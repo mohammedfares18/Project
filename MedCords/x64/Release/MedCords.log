@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+  CEditNames.cpp
+  DatabaseFunctionalities.cpp
+  comdefs.h is deprecated. use srvimpl.h
+  DialogFunctionalities.cpp
+  EncounterDialog.cpp
+  MedCords.cpp
+  MedCordsDlg.cpp
+\\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCords\MedCordsDlg.cpp(251,44): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+  MedCordsFunctionalities.cpp
+  OrdersDialog.cpp
+\\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCords\OrdersDialog.cpp(109,44): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+  PatientDetailsDlg.cpp
+\\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCords\PatientDetailsDlg.cpp(173,51): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+  DataStorage.cpp
+  TrackingDialog.cpp
+\\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCords\TrackingDialog.cpp(109,52): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+  Generating code
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  Finished generating code
+  MedCords.vcxproj -> \\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\x64\Release\MedCords.exe

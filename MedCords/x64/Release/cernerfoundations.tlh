@@ -1,0 +1,219 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.29.30038.1 (79b394c9).
+//
+// \\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCords\x64\Release\cernerfoundations.tlh
+//
+// C++ source equivalent of type library CernerFoundations.tlb
+// compiler-generated file created 07/07/21 at 14:33:31 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("4cdb40ae-0a93-4198-97e8-7a188e0242da"))
+/* LIBID */ __CernerFoundations;
+struct __declspec(uuid("1ef87a1b-44c9-44e3-8794-c9d95d180376"))
+/* dual interface */ ICrmJobDetails;
+struct /* coclass */ CrmJobDetails;
+struct __declspec(uuid("a9242877-20f8-4f89-9f66-84db2672c9af"))
+/* dual interface */ IJournal;
+enum IncidentType;
+struct /* coclass */ JournalEventArgs;
+struct /* coclass */ JournalEventHandler;
+struct /* coclass */ Journal;
+struct __declspec(uuid("67c9fed1-5d2a-45de-8122-2d34509aa283"))
+/* dispinterface */ _IJournalEntry;
+struct __declspec(uuid("1659a9a7-c253-46da-879f-c2ab5f7dd415"))
+/* dual interface */ IJournalEntry;
+struct /* coclass */ JournalEntry;
+struct /* coclass */ VBCollection;
+struct __declspec(uuid("e7fc1da2-8615-39c8-bbd5-15e25965e09c"))
+/* dual interface */ _JournalEventHandler;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ICrmJobDetails, __uuidof(ICrmJobDetails));
+_COM_SMARTPTR_TYPEDEF(_IJournalEntry, __uuidof(_IJournalEntry));
+_COM_SMARTPTR_TYPEDEF(IJournalEntry, __uuidof(IJournalEntry));
+_COM_SMARTPTR_TYPEDEF(_JournalEventHandler, __uuidof(_JournalEventHandler));
+_COM_SMARTPTR_TYPEDEF(IJournal, __uuidof(IJournal));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("1ef87a1b-44c9-44e3-8794-c9d95d180376"))
+ICrmJobDetails : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT SetReply (
+        unsigned long hReply,
+        VARIANT_BOOL verbose );
+    HRESULT SetRequest (
+        unsigned long hRequest,
+        VARIANT_BOOL verbose );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_SetReply (
+        /*[in]*/ unsigned long hReply,
+        /*[in]*/ VARIANT_BOOL verbose ) = 0;
+      virtual HRESULT __stdcall raw_SetRequest (
+        /*[in]*/ unsigned long hRequest,
+        /*[in]*/ VARIANT_BOOL verbose ) = 0;
+};
+
+struct __declspec(uuid("82a7c593-6956-4aae-8f32-0d7f5864f970"))
+CrmJobDetails;
+    // interface _Object
+    // [ default ] interface ICrmJobDetails
+    // interface IJournalEntry
+
+enum __declspec(uuid("640f48d2-b3d9-44b5-be50-bcb6036fa492"))
+IncidentType
+{
+    IncidentType_None = 0,
+    IncidentType_Stability = 1,
+    IncidentType_Error = 2,
+    IncidentType_Performance = 3,
+    IncidentType_UserReported = 4,
+    IncidentType_Alert = 5
+};
+
+struct __declspec(uuid("450e61a3-7be4-4ff4-9d17-a58f31645249"))
+JournalEventArgs;
+    // interface _Object
+
+struct __declspec(uuid("efcb3663-8827-38bf-a9ec-2815dc30d376"))
+JournalEventHandler;
+    // [ default ] interface _JournalEventHandler
+    // interface _Delegate
+    // interface _Object
+    // interface ICloneable
+    // interface ISerializable
+
+struct __declspec(uuid("5ebada54-7c44-448c-8c01-add160d16aee"))
+Journal;
+    // interface _Object
+    // [ default ] interface IJournal
+
+struct __declspec(uuid("67c9fed1-5d2a-45de-8122-2d34509aa283"))
+_IJournalEntry : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    HRESULT JournalChangeEvent (
+        struct IJournalEntry * sender );
+};
+
+struct __declspec(uuid("1659a9a7-c253-46da-879f-c2ab5f7dd415"))
+IJournalEntry : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetJournalText ( );
+    DATE GetEntryDate ( );
+    HRESULT add_JournalChangeEvent (
+        IUnknown * value );
+    HRESULT remove_JournalChangeEvent (
+        IUnknown * value );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetJournalText (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_GetEntryDate (
+        /*[out,retval]*/ DATE * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_add_JournalChangeEvent (
+        /*[in]*/ IUnknown * value ) = 0;
+      virtual HRESULT __stdcall raw_remove_JournalChangeEvent (
+        /*[in]*/ IUnknown * value ) = 0;
+};
+
+struct __declspec(uuid("4767741b-23b5-457d-834c-859d859cb579"))
+JournalEntry;
+    // interface _Object
+    // [ default ] interface IJournalEntry
+    // [ default, source ] dispinterface _IJournalEntry
+
+struct __declspec(uuid("188e1e22-bbe0-3629-b861-44c45f67b0ba"))
+VBCollection;
+    // interface _Object
+    // [ default ] interface IEnumerable
+    // interface ICollection
+
+struct __declspec(uuid("e7fc1da2-8615-39c8-bbd5-15e25965e09c"))
+_JournalEventHandler : IDispatch
+{};
+
+struct __declspec(uuid("a9242877-20f8-4f89-9f66-84db2672c9af"))
+IJournal : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetName))
+    _bstr_t Name;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Subscribe (
+        struct _JournalEventHandler * subscriber );
+    HRESULT Unsubscribe (
+        struct _JournalEventHandler * subscriber );
+    _bstr_t GetName ( );
+    HRESULT Add (
+        struct IJournalEntry * entry );
+    HRESULT Parse (
+        IUnknown * parser );
+    HRESULT WriteArtifacts (
+        _bstr_t path,
+        _bstr_t title );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Subscribe (
+        /*[in]*/ struct _JournalEventHandler * subscriber ) = 0;
+      virtual HRESULT __stdcall raw_Unsubscribe (
+        /*[in]*/ struct _JournalEventHandler * subscriber ) = 0;
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_Add (
+        /*[in]*/ struct IJournalEntry * entry ) = 0;
+      virtual HRESULT __stdcall raw_Parse (
+        /*[in]*/ IUnknown * parser ) = 0;
+      virtual HRESULT __stdcall raw_WriteArtifacts (
+        /*[in]*/ BSTR path,
+        /*[in]*/ BSTR title ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "\\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCords\x64\Release\cernerfoundations.tli"
+
+#pragma pack(pop)

@@ -1,0 +1,24 @@
+﻿Build started 6/24/2021 9:58:39 PM.
+     1>Project "C:\Users\MM090079\Desktop\New Medcords 18-6-21\MedCords\MedCords\MedCords.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\MedCords.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt EncounterDialog.cpp
+         EncounterDialog.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MM090079\Desktop\New Medcords 18-6-21\MedCords\x64\Debug\MedCords.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\MM090079\Desktop\New Medcords 18-6-21\MedCords\x64\Debug\MedCords.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MM090079\Desktop\New Medcords 18-6-21\MedCords\x64\Debug\MedCords.lib" /MACHINE:X64 x64\Debug\MedCords.res
+         x64\Debug\DatabaseFunctionalities.obj
+         x64\Debug\EncounterDialog.obj
+         x64\Debug\MedCords.obj
+         x64\Debug\MedCordsDlg.obj
+         x64\Debug\MedCordsFunctionalities.obj
+         x64\Debug\OrdersDialog.obj
+         x64\Debug\PatientDetailsDlg.obj
+         x64\Debug\DataStorage.obj
+         x64\Debug\SelectPersonDlg.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\TrackingDialog.obj
+         MedCords.vcxproj -> C:\Users\MM090079\Desktop\New Medcords 18-6-21\MedCords\x64\Debug\MedCords.exe
+     1>Done Building Project "C:\Users\MM090079\Desktop\New Medcords 18-6-21\MedCords\MedCords\MedCords.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16

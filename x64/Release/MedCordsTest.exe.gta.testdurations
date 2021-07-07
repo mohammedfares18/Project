@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\MM090079\DevCenterProject\MedCords\DEVACDMY-35892\x64\Release\MedCordsTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="DataStorageEncounter.GetEncounterID" Duration="1" />
+    <TestDuration Test="DataStorageEncounter.GetEncounterType" Duration="1" />
+    <TestDuration Test="DataStorageEncounter.GetEncounterstatus" Duration="1" />
+    <TestDuration Test="Display.PatientsInfo1" Duration="1" />
+    <TestDuration Test="Display.PatientsInfo2" Duration="1" />
+    <TestDuration Test="Display.EncountersInfo1" Duration="1" />
+    <TestDuration Test="Display.EncountersInfo2" Duration="1" />
+    <TestDuration Test="Display.TrackInfo1" Duration="1" />
+    <TestDuration Test="Display.TrackInfo2" Duration="1" />
+    <TestDuration Test="Display.TrackInfo3" Duration="1" />
+    <TestDuration Test="Display.TrackInfo4" Duration="1" />
+    <TestDuration Test="Display.OrderInfo1" Duration="1" />
+    <TestDuration Test="Display.OrderInfo2" Duration="1" />
+    <TestDuration Test="Display.OrderInfo3" Duration="1" />
+    <TestDuration Test="Display.OrderInfo4" Duration="1" />
+    <TestDuration Test="CheckForValidCharacter.AlphabetLowerCase" Duration="1" />
+    <TestDuration Test="CheckForValidCharacter.AlphabetUpperCase" Duration="1" />
+    <TestDuration Test="CheckForValidCharacter.BlankSpace" Duration="1" />
+    <TestDuration Test="CheckForValidCharacter.Digit" Duration="1" />
+    <TestDuration Test="CheckForValidCharacter.SpecialCharacter" Duration="1" />
+    <TestDuration Test="CheckForValidCharacter.BackSpace" Duration="1" />
+    <TestDuration Test="ValidatePersonNames.BothNamesWithLessThanThreeCharacters" Duration="1" />
+    <TestDuration Test="ValidatePersonNames.FirstNameWithThreeOrMoreCharacters" Duration="1" />
+    <TestDuration Test="ValidatePersonNames.LastNameWithThreeOrMoreCharacters" Duration="1" />
+    <TestDuration Test="ValidatePersonNames.BothNamesWithThreeOrMoreCharacters" Duration="1" />
+    <TestDuration Test="ConvertDoubleToString.PositiveNumber" Duration="1" />
+    <TestDuration Test="ConvertDoubleToString.NegativeNumber" Duration="1" />
+    <TestDuration Test="ConvertDoubleToString.Zero" Duration="1" />
+    <TestDuration Test="ConvertDateToString.YearGreaterThan10" Duration="1" />
+    <TestDuration Test="ConvertDateToString.YearLessThan10" Duration="1" />
+    <TestDuration Test="ConvertDateToString.DayLessThan10" Duration="1" />
+    <TestDuration Test="ConvertDateToString.MonthLessThan10" Duration="1" />
+    <TestDuration Test="ConvertDateToString.DayAndMonthLessThan10" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

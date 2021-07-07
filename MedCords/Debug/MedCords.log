@@ -1,0 +1,21 @@
+﻿Build started 6/14/2021 4:29:49 PM.
+     1>Project "C:\Users\MM090079\OneDrive - Cerner Corporation\MedCords\MedCords\MedCords.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\MedCords.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt SelectPersonDlg.cpp
+         SelectPersonDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MM090079\OneDrive - Cerner Corporation\MedCords\Debug\MedCords.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\MM090079\OneDrive - Cerner Corporation\MedCords\Debug\MedCords.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MM090079\OneDrive - Cerner Corporation\MedCords\Debug\MedCords.lib" /MACHINE:X86 Debug\MedCords.res
+         Debug\MedCords.obj
+         Debug\MedCordsDlg.obj
+         Debug\MedCordsFunctionalities.obj
+         Debug\PersonDetailsDlg.obj
+         Debug\PersonInfo.obj
+         Debug\SelectedPerson.obj
+         Debug\SelectPersonDlg.obj
+         Debug\stdafx.obj
+         MedCords.vcxproj -> C:\Users\MM090079\OneDrive - Cerner Corporation\MedCords\Debug\MedCords.exe
+     1>Done Building Project "C:\Users\MM090079\OneDrive - Cerner Corporation\MedCords\MedCords\MedCords.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.39

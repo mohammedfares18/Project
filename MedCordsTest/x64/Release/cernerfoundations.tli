@@ -1,0 +1,104 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.29.30038.1 (96f50b2b).
+//
+// \\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCordsTest\x64\Release\cernerfoundations.tli
+//
+// Wrapper implementations for type library CernerFoundations.tlb
+// compiler-generated file created 07/07/21 at 14:33:47 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ICrmJobDetails wrapper method implementations
+//
+
+inline HRESULT ICrmJobDetails::SetReply ( unsigned long hReply, VARIANT_BOOL verbose ) {
+    HRESULT _hr = raw_SetReply(hReply, verbose);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICrmJobDetails::SetRequest ( unsigned long hRequest, VARIANT_BOOL verbose ) {
+    HRESULT _hr = raw_SetRequest(hRequest, verbose);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// dispinterface _IJournalEntry wrapper method implementations
+//
+
+inline HRESULT _IJournalEntry::JournalChangeEvent ( struct IJournalEntry * sender ) {
+    return _com_dispatch_method(this, 0x60020004, DISPATCH_METHOD, VT_EMPTY, NULL, 
+        L"\x0009", sender);
+}
+
+//
+// interface IJournalEntry wrapper method implementations
+//
+
+inline _bstr_t IJournalEntry::GetJournalText ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetJournalText(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline DATE IJournalEntry::GetEntryDate ( ) {
+    DATE _result = 0;
+    HRESULT _hr = raw_GetEntryDate(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IJournalEntry::add_JournalChangeEvent ( IUnknown * value ) {
+    HRESULT _hr = raw_add_JournalChangeEvent(value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IJournalEntry::remove_JournalChangeEvent ( IUnknown * value ) {
+    HRESULT _hr = raw_remove_JournalChangeEvent(value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IJournal wrapper method implementations
+//
+
+inline HRESULT IJournal::Subscribe ( struct _JournalEventHandler * subscriber ) {
+    HRESULT _hr = raw_Subscribe(subscriber);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IJournal::Unsubscribe ( struct _JournalEventHandler * subscriber ) {
+    HRESULT _hr = raw_Unsubscribe(subscriber);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IJournal::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IJournal::Add ( struct IJournalEntry * entry ) {
+    HRESULT _hr = raw_Add(entry);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IJournal::Parse ( IUnknown * parser ) {
+    HRESULT _hr = raw_Parse(parser);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IJournal::WriteArtifacts ( _bstr_t path, _bstr_t title ) {
+    HRESULT _hr = raw_WriteArtifacts(path, title);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

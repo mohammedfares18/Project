@@ -1,0 +1,3 @@
+\\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCords\MedCordsTest\x64\Release\MedCordsTest.vcxproj.CopyComplete
+C:\Users\MM090079\DevCenterProject\MedCords\DEVACDMY-35892\MedCordsTest\x64\Release\MedCordsTest.vcxproj.CopyComplete
+\\userprofiles01\XDdata01\MM090079\Desktop\MedCordsvs2019\MedCordsTest\x64\Release\MedCordsTest.vcxproj.CopyComplete
